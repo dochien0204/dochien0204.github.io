@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+body {
+    background-color: #E0E8FF;
+    background-image: url("https://devshot-dotcom.github.io/order-summary-component/images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+}
+
+.container {
+    transform: translateX(-50%);
+    background-color:white;
+    width: 374px;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.container img {
+    width: 374px;
+    height: 190px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+ 
+}
+.content {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+ 
+}
+
+.content .title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 24px;
+}
+
+.content .para {
+    font-size: 16px;
+    color: #7280a7;
+    margin-top: 24px;
+    font-weight: 500;
+}
+
+.container .info {
+
+    background-color: #EDF2FF;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 24px;
+   
+}
+
+.content .info .icon {
+    width: 73.75px;
+
+}
+.bg {
+    width: 48px;
+    height: 48px;
+    background-color: #DFE6FB;
+    border-radius: 50%;
+}
+.bg i {
+    margin-top: 50%;
+    transform: translateY(-50%);
+
+
+}
+.content .info .plan {
+    width: 147.5px;
+}
+.info .plan .bold {
+    font-weight: bold;
+}
+.info .plan .normal {
+    color: #7280a7;
+}
+.content .info .link {
+    width: 73.75px;
+    color: blue;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.content .but {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.but .btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+
+}
+.but .proceed {
+    background-color: blue;
+    border-radius: 12px;
+}
+
+.but .proceed a{
+    text-decoration: none;
+    color: white;
+}
+.but .proceed:hover {
+    opacity: 0.5;
+}
+
+.but .cancel {
+    margin-top: 10px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.but .cancel a {
+    text-decoration: none;
+    color: black;
+}
+.but .cancel:hover {
+    opacity: 1;
+}

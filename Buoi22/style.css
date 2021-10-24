@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 50%;
+    background-color: #E8E8E8;
+}
+.container {
+    margin-top: 15%;
+    width: 374px;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 7px;
+    
+}
+.container .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .title p {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+
+.container .title .far {
+    font-size: 25px;
+    opacity: 0.3;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.login {
+    margin: 0 23px;
+}
+.log-google {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.122);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.log-google p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.log-google .fab {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+hr {
+    opacity: 0.3;
+    margin: 20px;
+}
+ .log-email {
+    margin: 0 20px;
+ }
+ .log-email form {
+     font-size: 18px;
+ }
+ #email, #password {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,0.122);
+    border-radius: 7px;
+    margin-bottom: 20px;
+ }
+
+ .log-email span {
+     font-size: 16px;
+     opacity: 0.6;
+ }
+
+ .log-email button {
+     width: 100%;
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.122);
+     background-color: #339DFF;
+     color: white;
+     padding: 10px;
+     cursor: pointer;
+ }
+
+ .log-email button:hover {
+     background-color:blue;
+ }
+ .log-email .forgot {
+    text-align: center;
+    color:#3f9af1;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 17px;
+ }
+
+.sign-up {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ .sign-up p {
+     font-size: 16px;
+     opacity: 0.6;
+ }
+
+ .sign-up a {
+     cursor: pointer;
+     text-decoration: none;
+     color: #3f9af1;
+ }

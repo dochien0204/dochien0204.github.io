@@ -28,6 +28,20 @@
     display: flex;
     margin-left: 10px;
 }
+
+.two-number {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.two-number .box-row {
+    display: flex;
+}
+
+.two-number .alone-end {
+    align-self: flex-end;
+}
 .box {
     width: 50px;
     height: 50px;

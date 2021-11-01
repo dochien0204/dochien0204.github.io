@@ -8,16 +8,19 @@
 body {
     background-image: url('https://u2cancarve.com/wp-content/uploads/2021/01/hinh-nen-gon-may-hoang-hon_014746754.png');
     background-size: cover;
+
 }
 
 .container {
     background-color:white;
-    margin: 100px 370px;
+    width: 60%;
     height: 100%;
     border-radius: 5px;
+    margin: 100px auto;
+
 }
 
-.header {
+.container .header {
     padding: 50px 100px;
     display: flex;
     justify-content: space-between;

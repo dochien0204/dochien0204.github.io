@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-image: url("https://azzo.vn/wp-content/uploads/2014/09/nhung-yeu-to-anh-huong-den-chat-luong-cua-son-tuong-azzo-add-1170x780.jpg");
+    background-size: cover;
+    height: 100px;
+    position: relative;
+}
+
+.para-style {
+  position: relative;
+    margin-right: 100px;
+}
+
+.header .menu {
+    background-color: #66FFCC;
+
+}
+.header .menu .contain {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    align-items: center;
+}
+ .function {
+    text-align: center;
+}
+
+.function:hover {
+    color: #FFCCCC;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+
+}
+
+.main .content-left {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.title p {
+    color: white;
+    background-color: blue;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-left .infor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-price .son-infor {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.son-infor p {
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+}
+
+.son-infor .define {
+    color: red;
+}
+
+.image-price .image img{
+    object-fit: cover;
+    margin-left: 10px;
+    height: 200px;
+    width: 270px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.infor .final {
+    margin-right: 10px;
+}
+
+.content-mid {
+    margin-left: 20px;
+    width: 20%;
+}
+
+.content-mid .video img {
+    height: 300px ;
+}
+
+.content-right {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right .gio-hang {
+    height: 30%;
+    border: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-right .support {
+    height: 20%;
+}
+
+.content-right .news {
+    height: 50%;
+}
+
+.gio-hang .menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.gio-hang .total {
+    color: pink;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(-20px);
+}
+
+.gio-hang .link {
+    text-align: center;
+}
+
+.gio-hang .link a {
+    text-decoration: none;
+    color: pink;
+}
+
+.gio-hang .link a:hover{
+    color: blue;
+}
+
+.gio-hang .final {
+    margin-bottom: 30px;
+}
+.content-right .news-infor .new-img img {
+    height: 60px;
+}
+
+.content-right .support {
+    margin-top: 20px;
+    border: 3px solid pink;
+}
+
+.support .menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    border: 5px;
+}
+
+.support .img-adm {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content-right .news {
+    margin-top: 20px;
+    border: 3px solid pink;
+}
+
+.content-right .news .menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    border: 5px;
+
+}
+
+.news .news-infor {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.news-infor .new-para {
+    align-items: center;
+}
